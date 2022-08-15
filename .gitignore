@@ -1,0 +1,15 @@
+# Ignore the MuMiN data obtained from calling MuminDataset
+data/mumin_archive/
+
+# Ignore tags files
+tags
+
+# Ignore jupyter notebook artefacts
+.ipynb*
+
+# Ignore the mumin-baseline directory as it's another git repo
+# Add a note somewhere to manually clone it if necessary
+modeling/mumin-baseline/
+
+# Ignore the symlink to the data directory in the notebooks directory
+notebooks/data
