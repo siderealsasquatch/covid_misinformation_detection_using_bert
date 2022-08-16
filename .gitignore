@@ -1,8 +1,8 @@
 # Ignore the MuMiN data obtained from calling MuminDataset
 data/mumin_archive/
 
-# Ignore tags files
-tags
+# Ignore all tags files
+tags*
 
 # Ignore jupyter notebook artefacts
 .ipynb*
@@ -13,3 +13,9 @@ modeling/mumin-baseline/
 
 # Ignore the symlink to the data directory in the notebooks directory
 notebooks/data
+
+# Ignore the old_notebooks directory on the laptop repo
+old_notebooks/
+
+# Ignore the .env file
+.env
