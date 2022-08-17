@@ -14,9 +14,10 @@ modeling/mumin-baseline/
 # Ignore the symlink to the data directory in the notebooks directory
 notebooks/data
 
-# Ignore all files and directories that have the world old, bak, or tmp in them
-*old*
-**/*old*
+# Ignore the old_notebooks directory
+notebooks/old_notebooks/
+
+# Ignore all files and directories that have the world bak or tmp in them
 *bak*
 **/*bak*
 *tmp*
