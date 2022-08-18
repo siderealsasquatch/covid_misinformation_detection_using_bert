@@ -15,7 +15,7 @@ modeling/mumin-baseline/
 notebooks/data
 
 # Ignore the old_notebooks directory
-notebooks/old_notebooks/
+old_notebooks/
 
 # Ignore all files and directories that have the world bak or tmp in them
 *bak*
