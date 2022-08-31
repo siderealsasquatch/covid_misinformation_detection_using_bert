@@ -11,6 +11,7 @@ tags*
 # Add a note somewhere to manually clone it if necessary
 models/mumin-baseline/
 models/COVID19-Fake-News-Detection-Using-BERT/
+models/LaBSE/
 
 # Ignore the symlink to the data directory in the notebooks directory
 notebooks/data
